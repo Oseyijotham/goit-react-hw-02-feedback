@@ -29,11 +29,7 @@ export class App extends Component {
     bad: 0,
   };
 
-  /*option = {
-    good: "Good",
-    neutral: "Neutral",
-    bad: "Bad",
-  };*/
+
 
   options = ["Good", "Neutral", "Bad"];
 
