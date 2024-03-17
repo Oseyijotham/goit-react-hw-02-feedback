@@ -53,7 +53,7 @@ export class App extends Component {
     evt.target.style.boxShadow = "inset 0 0 10px 5px rgba(0, 0, 0, 0.3)";
     setTimeout(() => {
       evt.target.style.boxShadow = 'none';
-      console.log('Second log');
+      
     }, 200);
     const { name } = evt.target;
     const goodButton = 'good';

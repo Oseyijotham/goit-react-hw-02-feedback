@@ -53,6 +53,7 @@ export class FeedbackOptions extends Component {
             type="button"
             name={option}
             onClick={onLeaveFeedback}
+            key={options.indexOf(option)}
           >
             {option}
           </button>
@@ -61,5 +62,3 @@ export class FeedbackOptions extends Component {
     );
   }
 }
-
-
